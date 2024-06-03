@@ -1,0 +1,8 @@
+
+["Brick Cook Time"]
+	#DEFAULT: FALSE || if true, cooks only during the day
+	daycookonly = true
+	cooktime = 600.0
+	#adjusts cook time by the biome temp || DEFAULT: False
+	affected_by_biome_temp = true
+
