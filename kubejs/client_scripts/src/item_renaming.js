@@ -1,0 +1,11 @@
+ClientEvents.lang('en_us',event=>{
+    event.renameItem('spelunkery:cinnabar','Crystallized Redstone')
+    event.renameItem('spelunkery:cinnabar_block','Block of Crystallized Redstone')
+    event.renameItem('spelunkery:cinnabar_shard','Crystallized Redstone Shard')
+    event.renameItem('spelunkery:rough_cinnabar','Rough Redstone')
+    event.renameItem('spelunkery:rough_cinnabar_block','Rough Redstone Block')
+    event.renameItem('spelunkery:rough_cinnabar_shard','Rough Redstone Shard')
+    event.renameItem('minecraft:hay_block','Wheat Bale')
+    event.renameItem('salt:raw_rock_salt','Mineral Salt')
+    event.renameItem('salt:raw_rock_salt_block','Block of Mineral Salt')
+})

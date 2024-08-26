@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "crafting_table",
+    "finally_a_pickaxe"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Campfires are one of the most useful early-game tools you can make.",
+      "",
+      "They provide heat to prevent you from freezing, they let you cook food, they restore your sanity, and you'll need one to make a furnace!",
+      "",
+      "Make sure to light your campfire with a /b/Sparkling Flint/b/ to light it up, then give it fuel to keep the flame going.",
+      "",
+      "/a/TIP: You should keep your campfire when you make a furnace. It's worth crafting a second campfire, especially since furnaces can't cook food anymore./a/"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -130,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:campfire",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Coziness"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "basic_tools__knives",
+    "basic_tools__axes"
+  ],
+  "tasks": {
+    "crafting_table": {
+      "block": "minecraft:crafting_table",
+      "state": {},
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "At last! The glorious crafting table!",
+      "",
+      "It may not have been the most tedious crafting table you've obtained, but hopefully it's built your appreciation for the simple things in life.",
+      "",
+      "Now that you have 3x3 crafting, we can really start to get going."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -170,
+          -130
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:crafting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Crafting Table"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

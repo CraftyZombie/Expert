@@ -1,0 +1,12 @@
+ServerEvents.recipes(event=>{
+    event.remove([
+        {
+            id:'farmersdelight:flint_knife'
+        },
+        {
+            id:'farmersdelight:cutting/gravel'
+        }
+    ])
+    event.replaceInput({mod:'farmersdelight'},'minecraft:wooden_shovel','kubejs:spoon')
+    event.replaceInput({id:'farmersdelight:cutting_board'},'#minecraft:planks','#minecraft:logs')
+})

@@ -1,0 +1,16 @@
+ServerEvents.recipes(event=>{
+    event.remove([
+        {
+            type:'minecraft:smelting',output:'/roasted/'
+        },
+        {
+            type:'minecraft:smelting',output:'/cooked/'
+        },
+        {
+            type:'minecraft:smelting',output:'/smoked/'
+        },
+        {
+            type:'minecraft:smelting',output:'/baked/'
+        }
+    ])
+})

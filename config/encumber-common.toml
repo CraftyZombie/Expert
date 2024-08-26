@@ -1,0 +1,57 @@
+
+["Common Configs for Encumbered:"]
+	#
+	#Which container items should be checked?
+	container_item = ["minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
+	#
+	#Add any items you want to boost the player's carrying capacity. Item's here count in your inventory and when equipped.
+	boost_items = []
+	#
+	#Add boost amounts that correspond to the BOOST_ITEMS above
+	boost_items_amount = []
+	#
+	#Add any equipables you want to boost the player's carrying capacity. Items in this list require you to equip them before they take effect.
+	boost_armors = []
+	#
+	#Add boost amounts that correspond to the BOOST_ARMORS above
+	boost_armors_amount = []
+	#
+	#If this is true, when the player is at the OVER_ENCUMBERED_THRESHOLD, they cannot jump, fly, or ride mounts. If false, you can configure these thresholds below. default: true
+	tie_to_over_encumbered_threshold = true
+	#
+	#If weight is above this, you cannot ride any mount (Negative values will break the mod) default: 100
+	riding_threshold = 100.0
+	#
+	#If weight is above this, you cannot fly with an elytra (Negative values will break the mod) default: 100
+	fall_flying_threshold = 100.0
+	#
+	#If weight is above this, you cannot jump (Negative values will break the mod) default: 100
+	jumping_threshold = 100.0
+	#
+	#The Multiplier for the first encumberment stage. Pick a value between 1 and 100. For example, if your max weight is 1000, and you set the multiplier to 70, then 70% of 1000 is your first encumberment stage. default: 70
+	encumbered_threshold = 70.0
+	#
+	#If weight is above this, you get slowness 5, cannot jump, and cannot sprint (Negative values will break the mod) default: 100
+	over_encumbered_threshold = 100.0
+	#
+	#Whether or not boost item's additional capacities stack. If there are multiple boost items present in your inventory and this is false, it chooses the better boost item. default: true
+	allow_multiple_boost_items = true
+	#
+	#Whether or not the player sinks in WATER and LAVA while OVER_ENCUMBERED. default: true
+	sink_in_water_and_lava = true
+	#
+	#If set to true, only players in creative mode can open the weight edit GUI. default: false
+	lock_gui_to_creative = true
+	#
+	#Multiplier for Unencumberment Level 1
+	#Range: 1.0 ~ 100.0
+	unencumberment_level_1_multiplier = 1.1
+	#
+	#Multiplier for Unencumberment Level 2
+	#Range: 1.0 ~ 100.0
+	unencumberment_level_2_multiplier = 1.25
+	#
+	#Multiplier for Unencumberment Level 3
+	#Range: 1.0 ~ 100.0
+	unencumberment_level_3_multiplier = 1.5
+

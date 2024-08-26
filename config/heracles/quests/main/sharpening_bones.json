@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "pebbles"
+  ],
+  "tasks": {
+    "bone_shard": {
+      "type": "heracles:item",
+      "item": "natprog:bone_shard",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "An important early-game resource is the bone shard. These will come in handy for creating your first knife and pickaxe. To get one, simply knap a bone against a piece of flint."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -230,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "natprog:bone_shard",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Sharpening Bones"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

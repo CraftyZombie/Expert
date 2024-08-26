@@ -28,7 +28,7 @@
 		#If true night vision will no longer flash 10 seconds before expiring, instead will slowly fade out 2 seconds before expiring.
 		"No Night Vision Flashing" = true
 		#If enabled, the brightness will be set to 15% regardless of the current brightness in video settings.
-		"Force darkness" = true
+		"Force darkness" = false
 
 	#Makes fog less invasive in some contexts
 	[Client.Fog]

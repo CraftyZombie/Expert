@@ -1,0 +1,14 @@
+ServerEvents.recipes(event=>{
+    event.remove([
+        {
+            output:'farmersdelight:tree_bark'
+        },
+        {
+            id:'immersive_weathering:candle_from_tallow'
+        }
+    ])
+    event.replaceInput([
+        {id:'/waxed/'}
+    ],'minecraft:honeycomb','#immersive_weathering:wax')
+    event.replaceInput({input:'farmersdelight:tree_bark'},'farmersdelight:tree_bark','#immersive_weathering:bark')
+})

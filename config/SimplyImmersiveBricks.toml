@@ -4,5 +4,5 @@
 	daycookonly = true
 	cooktime = 600.0
 	#adjusts cook time by the biome temp || DEFAULT: False
-	affected_by_biome_temp = true
+	affected_by_biome_temp = false
 

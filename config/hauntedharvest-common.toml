@@ -7,7 +7,7 @@
 	pumpkin_carve_mode = "BOTH"
 	#Jack o Lantern carving mode
 	#Allowed Values: NONE, BOTH, GUI, MANUAL
-	jack_o_lantern_carve_mode = "NONE"
+	jack_o_lantern_carve_mode = "BOTH"
 
 [halloween_season]
 	#Month from which villagers will start placing pumpkins & trick or treating
@@ -52,6 +52,10 @@
 [season_mod_compat]
 	#Enables compatibility with Serene Seasons (Forge) or Fabric Seasons (Fabric). Only takes effect if the mod is installed. Will make halloween season only active during certain seasons. Note that this will override previous time window settings
 	enabled = true
+	#Season in which the mod villager AI behaviors will be active
+	halloween_seasons = ["MID_AUTUMN", "LATE_AUTUMN"]
+	#Adds custom times in which mobs can wear pumpkins. Leave empty to ignore
+	mob_wear_pumpkins_seasons = ["LATE_AUTUMN"]
 
 [general]
 	#Enable Creative Tab

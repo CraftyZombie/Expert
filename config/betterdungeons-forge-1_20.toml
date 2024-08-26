@@ -54,8 +54,8 @@
 	###########################################################################################################
 	["YUNG's Better Dungeons"."Small Nether Dungeons"]
 		# Whether or not small Nether dungeons should spawn.
-		# Default: true
-		"Enable Small Nether Dungeons" = false
+		# Default: false
+		"Enable Small Nether Dungeons" = true
 		# Whether or not Wither skeletons spawned from small Nether dungeons have a chance to drop Wither skeleton skulls.
 		# Default: true
 		"Wither Skeletons From Spawners Drop Wither Skeleton Skulls" = true

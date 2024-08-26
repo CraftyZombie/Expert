@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "crafting_table"
+  ],
+  "tasks": {
+    "finally_pickaxe": {
+      "type": "heracles:item",
+      "item": "natprog:bone_pickaxe",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In most Minecraft worlds, pickaxes tend to be the first things I make (after planks and sticks, of course). Boy, this new progression system really makes you appreciate the little things in life, eh?",
+      "",
+      "Now that you have a pickaxe, I'd recommend to start mining immediately. Get as much coal as you can, and maybe dig out a small hole to spend the night.",
+      "",
+      "/a/TIP: If you just want to clear blocks without processing them, don't waste pickaxe durability! Craft a hammer and chisel from /d/Spelunkery/d/./a/"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -130,
+          -130
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "natprog:bone_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Finally! A pickaxe!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,23 @@
+ServerEvents.recipes(event=>{
+    event.replaceInput(
+        {mod:'essentials',input:'minecraft:dirt'},
+        'minecraft:dirt',
+        'farmersdelight:rich_soil'
+    )
+    event.remove([{
+        output:'essentials:candle_lilypad'
+    },
+    {
+        id:'essentials:auto_crafter'
+    },
+    {
+        output:'essentials:fertile_soil_netherwart'
+    },
+    {
+        id:'essentials:piston'
+    }
+        
+    ])
+    event.shaped('essentials:auto_crafter',['XYX','XZX','XYX'],{X:'galosphere:silver_ingot',Y:'spelunkery:cinnabar',Z:'quark:crafter'})
+    event.shaped('essentials:fertile_soil_netherwart',['XYX','ZZZ','WWW'],{X:'minecraft:bonemeal',Y:'minecraft:fermented_spider_eye',Z:'minecraft:nether_wart',W:'nethersdelight:rich_soul_soil'})
+})

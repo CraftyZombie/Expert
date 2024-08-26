@@ -115,7 +115,7 @@
 	#Range: 0 ~ 1000
 	max_level_cap = 100
 	#Makes respawning only possible when using your own Home Bed. Fight back the night!
-	only_respawn_in_home_bed = true
+	only_respawn_in_home_bed = false
 
 [nightmares]
 	apply_to_beds = true

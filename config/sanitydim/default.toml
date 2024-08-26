@@ -5,10 +5,10 @@
 [sanity]
 	#For balancing purposes: the effectiveness of all positive sanity sources will be multiplied by this number
 	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
-	positive_multiplier = 1.0
+	positive_multiplier = 1.25
 	#For balancing purposes: the effectiveness of all negative sanity sources will be multiplied by this number
 	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
-	negative_multiplier = 1.0
+	negative_multiplier = 0.75
 
 	#Configuration for passive sanity sources
 	[sanity.passive]
@@ -65,7 +65,7 @@
 		#Supports boolean block state properties (can be omitted together with brackets)
 		#Prefix with TAG_ and follow with a tag registry name to define all blocks with the tag
 		#NOTE: not everything may work correctly with any configuration, e.g. multiblocks like tall flowers and beds; needs testing
-		blocks = ["minecraft:campfire[lit=true];0.1;4;false"]
+		blocks = ["minecraft:campfire[lit=true];0.1;4;false","TAG_chimes:wind_chimes;0.05;4;false","moyai:moyai;0.1;4;false"]
 
 	#Configuration for active sanity sources
 	[sanity.active]
@@ -120,7 +120,7 @@
 		eating_cd = 300.0
 		#Fishing an item gives this amount of sanity
 		#Range: -100.0 ~ 100.0
-		fishing = 1.3
+		fishing = 2.5
 		#Fishing cooldown (see notes above), real time in seconds
 		#Range: 0.0 ~ 3.4028234663852886E38
 		fishing_cd = 0.0
@@ -188,7 +188,7 @@
 		play_sounds = true
 		#Insanity ambience max volume
 		#Range: 0.0 ~ 1.0
-		insanity_volume = 0.6
+		insanity_volume = 0.3
 
 		#Sanity indicator configuration
 		[sanity.client.indicator]

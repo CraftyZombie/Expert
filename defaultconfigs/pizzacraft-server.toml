@@ -1,0 +1,20 @@
+
+#Server config settings
+[server]
+	#Enable olive drop from jungle leaves
+	dropOliveFromJungleLeaves = false
+	#Enable broccoli seed drops from tall grass
+	broccoliSeedDrops = true
+	#Enable cucumber seed drops from tall grass
+	cucumberSeedDrops = false
+	#Enable pepper seed drops from tall grass
+	pepperSeedDrops = true
+	#Enable pepper seed drops from tall grass
+	pineappleSeedDrops = true
+	#Enable tomato seed drops from tall grass
+	tomatoSeedDrops = false
+	#Enable corn drops from tall grass
+	cornDrops = false
+	#Enable onion drops from tall grass
+	onionDrops = false
+

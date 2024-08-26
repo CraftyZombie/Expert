@@ -1,0 +1,63 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Understood": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Welcome to Expert."
+    },
+    "description": [
+      "/6/**Welcome to the quest guide for Expert!**/6/",
+      "",
+      "This is a fairly bare-bones tutorial so that you can understand the basic mechanics and progression of the mod pack. Do note that there are no quest rewards, nor are there quests for completing random tasks or obtaining random items.",
+      "",
+      "The questline will guide you from obtaining your first tools all the way to finding the End. ",
+      "",
+      "Have fun!",
+      "",
+      "    /5/crafty_zombie/5/",
+      "",
+      "        Developer of Expert",
+      "",
+      "",
+      "/4/**Notes:**/4/",
+      "",
+      "- Graphics settings and gamerules have been tweaked to fit the intended experience. I'd advise against messing with them unless you don't care about that, and in that case, more power to you! My goal for this pack is to help you have a fun time, not bore or annoy you to death.",
+      "",
+      "- Stay tuned for Expert Cubed. Expert Cubed is a far more advanced pack that's in the works as of the initial release of this one! This pack was primarily intended to be the template for eventually creating that one.",
+      "",
+      "- We have a Discord server: https://discord.gg/ZsYxM7BtWw"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -280,
+          -130
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:garland_fragment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "The Beginning"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": true,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

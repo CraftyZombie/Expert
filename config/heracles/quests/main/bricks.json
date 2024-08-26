@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "crafting_table"
+  ],
+  "tasks": {
+    "minecraft:brick": {
+      "type": "heracles:item",
+      "item": "minecraft:brick",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Bricks are essential to progressing in Expert, as they are required in order to obtain a Furnace.",
+      "",
+      "Now, the question on your mind may be: \"Well, without a furnace, how are we supposed to get bricks??\"",
+      "",
+      "Great question!",
+      "",
+      "Courtesy of the /5/Simply Immersive Bricks/5/ mod, bricks can be crafted and then set out to dry. Simply collect some clay and organic compost, and you'll be good to go!",
+      "",
+      "If you're wondering if getting bricks will be like this later on, not to worry. In Expert, infastructure is key. Just make sure to get a Kiln from Clayworks to smelt your bricks at high speeds!"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -130,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:brick",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Bricks"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
