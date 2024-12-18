@@ -12,6 +12,7 @@
 
 ### Delightful
 1. Bone knife now uses bone shard (natprog) instead of bone.
+2. Naturally spawning salmonberry bushes now use the real crop rather than the "wild salmonberries" block.
 
 ### Minecraft
 1. Removed wooden tool recipes.
