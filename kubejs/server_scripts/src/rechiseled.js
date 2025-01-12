@@ -1,0 +1,60 @@
+ServerEvents.recipes(event=>{
+    event.remove('rechiseled:chisel')
+    event.custom({
+        type:'chipped:mason_table',
+        tags:[
+            'expert:cobbled_deepslate'
+        ]
+    })
+})
+
+ServerEvents.tags('item',event=>{
+    event.add('chipped:amethyst_block','/rechiseled:amethyst/')
+    event.add('chipped:oak_planks','/rechiseled:oak/')
+    event.add('chipped:spruce_planks','/rechiseled:spruce/')
+    event.add('chipped:birch_planks','/rechiseled:birch/')
+    event.add('chipped:jungle_planks','/rechiseled:jungle/')
+    event.add('chipped:acacia_planks','/rechiseled:acacia/')
+    event.add('chipped:dark_oak_planks','/rechiseled:dark_oak/')
+    event.add('chipped:mangrove_planks','/rechiseled:mangrove/')
+    event.add('chipped:cherry_planks','/rechiseled:cherry/')
+    event.add('chipped:bamboo_planks','/rechiseled:bamboo/')
+    event.add('chipped:crimson_planks','/rechiseled:crimson/')
+    event.add('chipped:warped_planks','/rechiseled:warped/')
+    event.add('chipped:andesite','/rechiseled:andesite/')
+    event.add('chipped:basalt','/rechiseled:basalt/')
+    event.add('chipped:blackstone','/rechiseled:blackstone/')
+    event.add('chipped:cobblestone','/rechiseled:cobblestone/')
+    event.add('chipped:diorite','/rechiseled:diorite/')
+    event.add('chipped:dirt','/rechiseled:dirt/')
+    event.add('chipped:end_stone','/rechiseled:end_stone/')
+    event.add('chipped:granite','/rechiseled:granite/')
+    event.add('chipped:mossy_cobblestone','/rechiseled:mossy_cobblestone/')
+    event.add('chipped:netherrack','/rechiseled:netherrack/')
+    event.add('chipped:red_sandstone','/rechiseled:red_sandstone/')
+    event.add('chipped:sandstone','/rechiseled:sandstone/')
+    event.add('chipped:stone','/rechiseled:stone/')
+    event.add('chipped:obsidian','/rechiseled:obsidian/')
+    event.add('chipped:prismarine','/rechiseled:prismarine/')
+    event.add('chipped:dark_prismarine','/rechiseled:dark_prismarine/')
+    event.add('chipped:purpur_block','/rechiseled:purpur/')
+    event.add('chipped:quartz_block','/rechiseled:quartz/')
+    event.add('chipped:coal_block','/rechiseled:coal/')
+    event.add('chipped:iron_block','/rechiseled:iron/')
+    event.add('chipped:gold_block','/rechiseled:gold/')
+    event.add('chipped:diamond_block','/rechiseled:diamond/')
+    event.add('chipped:netherite_block','/rechiseled:netherite/')
+    event.add('chipped:lapis_block','/rechiseled:lapis/')
+    event.add('chipped:bone_block','/rechiseled:bone/')
+    event.add('chipped:redstone_block','/rechiseled:redstone/')
+    event.add('chipped:waxed_copper_block','/rechiseled:copper/')
+    event.add('chipped:emerald_block','/rechiseled:emerald/')
+    event.add('chipped:blue_ice','/rechiseled:blue_ice/')
+    event.add('chipped:nether_bricks','/rechiseled:nether_brick/')
+    event.add('chipped:red_nether_bricks','/rechiseled:red_nether_brick/')
+    event.add('chipped:glowstone','/rechiseled:glowstone_block/')
+    event.add('expert:cobbled_deepslate',[
+        'minecraft:cobbled_deepslate',
+        '/rechiseled:cobbled_deepslate/'
+    ])
+})

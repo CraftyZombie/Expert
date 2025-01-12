@@ -3,4 +3,6 @@
 "Disable Poison Particle" = true
 #Disable Aura Render. [true / false]
 "Disable Aura Render" = false
+#Enable Old Style Animation. [true / false]
+OldStyleAnimation = false
 

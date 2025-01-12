@@ -1,109 +1,20 @@
 ServerEvents.recipes(event=>{
-    event.remove([
-    {
-        id:'minecraft:iron_boots'
-    },
-    {
-        id:'minecraft:iron_leggings'
-    },
-    {
-        id:'minecraft:iron_chestplate'
-    },
-    {
-        id:'minecraft:iron_helmet'
-    },
-    {
-        id:'minecraft:gold_boots'
-    },
-    {
-        id:'minecraft:gold_leggings'
-    },
-    {
-        id:'minecraft:gold_chestplate'
-    },
-    {
-        id:'minecraft:gold_helmet'
-    },
-    {
-        id:'minecraft:crafting_table'
-    },
-    {
-        id:'minecraft:bread'
-    },
-    {
-        id:'minecraft:painting'
-    },
-    {
-        id:'minecraft:wooden_pickaxe'
-    },
-    {
-        id:'minecraft:wooden_hoe'
-    },
-    {
-        id:'minecraft:wooden_axe'
-    },
-    {
-        id:'minecraft:wooden_shovel'
-    },
-    {
-        id:'minecraft:wooden_sword'
-    },
-    {
-        id:'minecraft:netherite_ingot'
-    },
-    {
-        id:'minecraft:lodestone'
-    },
-    {
-        id:'minecraft:end_rod'
-    },
-    {
-        id:'minecraft:stone_pickaxe'
-    },
-    {
-        id:'minecraft:stone_hoe'
-    },
-    {
-        id:'minecraft:stone_axe'
-    },
-    {
-        id:'minecraft:stone_shovel'
-    },
-    {
-        id:'minecraft:stone_sword'
-    },
-    {
-        id:'minecraft:sugar_from_sugar_cane'
-    }
-])
-    let forging = (Number,Output)=>{
-        event.custom({type:'caupona:dolium',fluid:'minecraft:water',amount:1000,items:[{count:Number,item:{item:'minecraft:iron_ingot'}},{count:2,item:{item:'minecraft:magma_cream'}}],output:{count:1,item:Output}})
-    }
-    forging(4,'kubejs:incomplete_iron_boots')
-    forging(7,'kubejs:incomplete_iron_leggings')
-    forging(8,'kubejs:incomplete_iron_chestplate')
-    forging(5,'kubejs:incomplete_iron_helmet')
-
-    let forge = (Input,Output)=>{
-        event.custom({type:'lookinsharp:forging',input:{item:Input},results:[{id:Output}]})
-    }
-    forge('kubejs:incomplete_iron_boots','minecraft:iron_boots')
-    forge('kubejs:incomplete_iron_leggings','minecraft:iron_leggings')
-    forge('kubejs:incomplete_iron_chestplate','minecraft:iron_chestplate')
-    forge('kubejs:incomplete_iron_helmet','minecraft:iron_helmet')
-
-    event.shaped('minecraft:crafting_table',['AA','BB'],{A:'farmersdelight:canvas',B:'#minecraft:logs'})
-    event.shaped('kubejs:spoon',['A','B','B'],{A:'#minecraft:planks',B:'minecraft:stick'})
-    event.shaped('minecraft:stone_hoe',['AA',' B',' B'],{A:'minecraft:flint',B:'minecraft:stick'})
-    event.replaceInput({},'minecraft:wooden_axe','#forge:axes')
+    event.remove(
+        [
+            {
+                type:'minecraft:crafting_shaped',id:'/_wood/',output:'#minecraft:logs'
+            }
+        ]
+    )
+    event.shaped('kubejs:brick_furnace_sheath',['XXX','YXY','Z Z'],{X:'minecraft:brick',Y:'minecraft:bricks',Z:'quark:sturdy_stone'})
 })
 
-ServerEvents.tags('worldgen/biome',event=>{
-    event.removeAll('minecraft:has_structure/ruined_portal_desert')
-    event.removeAll('minecraft:has_structure/ruined_portal_jungle')
-    event.removeAll('minecraft:has_structure/ruined_portal_mountain')
-    event.removeAll('minecraft:has_structure/ruined_portal_nether')
-    event.removeAll('minecraft:has_structure/ruined_portal_ocean')
-    event.removeAll('minecraft:has_structure/ruined_portal_standard')
-    event.removeAll('minecraft:has_structure/ruined_portal_swamp')
+LootJS.modifiers(event=>{
+    event.addBlockLootModifier('minecraft:sand').replaceLoot('minecraft:sand','4x immersive_weathering:sand_layer_block')
+    event.addBlockLootModifier('minecraft:red_sand').replaceLoot('minecraft:sand','4x immersive_weathering:red_sand_layer_block')
+})
+
+ServerEvents.tags('item',event=>{
+    event.add('minecraft:stripped_logs','upgrade_aquatic:stripped_driftwood_log')
+    event.add('forge:stripped_logs','#minecraft:stripped_logs')
 })

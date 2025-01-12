@@ -1,11 +1,14 @@
 ClientEvents.lang('en_us',event=>{
-    event.renameItem('spelunkery:cinnabar','Crystallized Redstone')
-    event.renameItem('spelunkery:cinnabar_block','Block of Crystallized Redstone')
-    event.renameItem('spelunkery:cinnabar_shard','Crystallized Redstone Shard')
-    event.renameItem('spelunkery:rough_cinnabar','Rough Redstone')
-    event.renameItem('spelunkery:rough_cinnabar_block','Rough Redstone Block')
-    event.renameItem('spelunkery:rough_cinnabar_shard','Rough Redstone Shard')
-    event.renameItem('minecraft:hay_block','Wheat Bale')
-    event.renameItem('salt:raw_rock_salt','Mineral Salt')
-    event.renameItem('salt:raw_rock_salt_block','Block of Mineral Salt')
+    let r = (id,name)=>{
+        event.renameItem(id,name)
+    }
+    r('spelunkery:cinnabar','Crystallized Redstone')
+    r('spelunkery:cinnabar_block','Block of Crystallized Redstone')
+    r('spelunkery:cinnabar_shard','Crystallized Redstone Shard')
+    r('spelunkery:rough_cinnabar','Rough Redstone')
+    r('spelunkery:rough_cinnabar_block','Rough Redstone Block')
+    r('spelunkery:rough_cinnabar_shard','Rough Redstone Shard')
+    r('minecraft:hay_block','Wheat Bale')
+    r('salt:raw_rock_salt','Mineral Salt')
+    r('salt:raw_rock_salt_block','Block of Mineral Salt')
 })

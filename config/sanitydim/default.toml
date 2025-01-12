@@ -5,10 +5,10 @@
 [sanity]
 	#For balancing purposes: the effectiveness of all positive sanity sources will be multiplied by this number
 	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
-	positive_multiplier = 1.25
+	positive_multiplier = 1.0
 	#For balancing purposes: the effectiveness of all negative sanity sources will be multiplied by this number
 	#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
-	negative_multiplier = 0.75
+	negative_multiplier = 0.9
 
 	#Configuration for passive sanity sources
 	[sanity.passive]
@@ -17,23 +17,23 @@
 		passive = 0.0
 		#Sanity gain per second during rainy weather or in water
 		#Range: -100.0 ~ 100.0
-		raining = 0.0
+		raining = -0.2
 		#Players' sanity will start getting affected with food levels at and below this threshold (in half-drumsticks)
 		#Range: 0 ~ 20
-		hunger_threshold = 11
+		hunger_threshold = 8
 		#Players with food levels at and below <hunger_threshold> gain this amount of sanity per second
 		#Range: -100.0 ~ 100.0
-		hungry = -0.4
+		hungry = -0.2
 		#Players will gain this amount of sanity per second for 5 seconds after looking at an enderman
 		#Range: -100.0 ~ 100.0
 		ender_man_anger = -5.0
 		#Players will gain this amount of sanity per second while being near their pets
 		#Range: -100.0 ~ 100.0
-		pet = 0.30
+		pet = 0.15
 		#Players will gain this amount of sanity per second while being near any monsters
 		#This value is doubled if the monster is aggressive towards the player
 		#Range: -100.0 ~ 100.0
-		monster = -0.30
+		monster = -0.1
 		#Players will gain this amount of sanity per second while being in the dark
 		#Range: -100.0 ~ 100.0
 		darkness = -0.15
@@ -54,10 +54,10 @@
 		dirt_path = 0.09
 		#Nearby jukebox playing a pleasant melody gives this amount of sanity per second
 		#Range: -100.0 ~ 100.0
-		jukebox_pleasant = 0.24
+		jukebox_pleasant = 0.08
 		#Nearby jukebox playing an unsettling melody gives this amount of sanity per second (this takes priority over pleasant melodies)
 		#Range: -100.0 ~ 100.0
-		jukebox_unsettling = -0.12
+		jukebox_unsettling = -0.11
 		#Define a list of blocks that affect sanity of players standing near them
 		#A block should be included as follows: block_registry_name[property1=value1,property2=value2];A;B;C
 		#Where A is how much sanity is gained per second, B is a radius in blocks,
@@ -65,7 +65,7 @@
 		#Supports boolean block state properties (can be omitted together with brackets)
 		#Prefix with TAG_ and follow with a tag registry name to define all blocks with the tag
 		#NOTE: not everything may work correctly with any configuration, e.g. multiblocks like tall flowers and beds; needs testing
-		blocks = ["minecraft:campfire[lit=true];0.1;4;false","TAG_chimes:wind_chimes;0.05;4;false","moyai:moyai;0.1;4;false"]
+		blocks = ["minecraft:campfire[lit=true];0.1;4;false"]
 
 	#Configuration for active sanity sources
 	[sanity.active]
@@ -120,7 +120,7 @@
 		eating_cd = 300.0
 		#Fishing an item gives this amount of sanity
 		#Range: -100.0 ~ 100.0
-		fishing = 2.5
+		fishing = 1.3
 		#Fishing cooldown (see notes above), real time in seconds
 		#Range: 0.0 ~ 3.4028234663852886E38
 		fishing_cd = 0.0
@@ -188,7 +188,7 @@
 		play_sounds = true
 		#Insanity ambience max volume
 		#Range: 0.0 ~ 1.0
-		insanity_volume = 0.3
+		insanity_volume = 0.15
 
 		#Sanity indicator configuration
 		[sanity.client.indicator]

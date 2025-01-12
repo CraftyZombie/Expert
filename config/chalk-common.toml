@@ -18,16 +18,16 @@ ShouldGenerateInChests = true
 
 #Enable/disable symbols and location of the advancement that will unlock that symbol. (Empty = always unlocked)
 [Symbols]
+	PickaxeEnabled = true
+	PickaxeUnlockAdvancement = ""
 	SkullEnabled = true
 	SkullUnlockAdvancement = ""
+	HouseEnabled = true
+	HouseUnlockAdvancement = ""
 	CheckEnabled = true
 	CheckUnlockAdvancement = ""
 	HeartEnabled = true
 	HeartUnlockAdvancement = ""
-	PickaxeEnabled = true
-	PickaxeUnlockAdvancement = ""
 	CrossEnabled = true
 	CrossUnlockAdvancement = ""
-	HouseEnabled = true
-	HouseUnlockAdvancement = ""
 

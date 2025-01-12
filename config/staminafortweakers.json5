@@ -1,34 +1,38 @@
 {
-	// Stamina points depleted per attack
-	"depletionPerAttack": 0.15000000596046448,
-	// Exhaustion slows mining
-	"exhaustionSlowsMining": false,
 	// Percentage of total stamina triggering exhaustion
 	"exhaustedPercentage": 0,
 	// Percentage of total stamina making the player winded
 	"windedPercentage": 25,
 	// Percentage of total stamina making the player fatigued
-	"fatiguedPercentage": 15,
+	"fatiguedPercentage": 0,
 	// Stamina points depleted per tick while sprinting.
-	"depletionPerTickSprinting": 0.5,
+	"depletionPerTickSprinting": 1.0,
 	// Stamina points depleted per tick while swimming.
 	"depletionPerTickSwimming": 0.5,
 	// Stamina points depleted per tick while climbing.
 	"depletionPerTickClimbing": 1.0,
 	// Stamina points depleted per jump
 	"depletionPerJump": 4.0,
+	// Stamina points depleted per attack
+	"depletionPerAttack": 1.0,
+	// Stamina points depleted per block broken
+	"depletionPerBlockBroken": 4.0,
+	// Exhaustion slows mining
+	"exhaustionSlowsMining": false,
 	// Can jump while exhausted
 	"canJumpWhileExhausted": true,
 	// Exhaustion causes Darkness
 	"exhaustionBlackout": false,
 	// Exhaustion sounds
 	"exhaustionSounds": true,
+	// Efficiency increases exhaustion
+	"efficiencyExhausts": false,
 	// % of max stamina recovered per tick.
 	"recoveryPerTick": 0.5,
 	// Bonus recovery multiplier for not moving.
 	"recoveryRestBonusMultiplier": 2.0,
 	// Do players recover stamina while walking?
-	"recoverWhileWalking": false,
+	"recoverWhileWalking": true,
 	// Do players recover stamina while sneaking?
 	"recoverWhileSneaking": true,
 	// Do players recover stamina when too hungry to sprint?
@@ -40,13 +44,15 @@
 	// Do players recover stamina when suffocating?
 	"recoverWhileBreathless": false,
 	// Delay in ticks before starting recovery from exhaustion
-	"recoveryDelayTicks": 120,
+	"recoveryExhaustDelayTicks": 40,
+	// Delay in ticks before starting recovery after depletion
+	"recoveryDelayTicks": 0,
 	// Which formula to use for recovery
 	"formula": "LOGARITHMIC",
 	// HUD vertical alignment
 	"alignV": "BOTTOM",
 	// HUD horizontal alignment
-	"alignH": "CENTER",
+	"alignH": "RIGHT",
 	// HUD Display Mode
 	"hudMode": "ICON",
 	// Stamina bar background color
@@ -70,7 +76,7 @@
 		// Horizontal offset
 		"offsetY": 1,
 		// Vertical offset
-		"offsetX": -130
+		"offsetX": 150
 	},
 	// Stamina Bar Settings
 	"bar": {

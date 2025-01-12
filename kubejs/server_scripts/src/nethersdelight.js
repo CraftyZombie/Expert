@@ -1,9 +1,0 @@
-ServerEvents.recipes(event=>{
-    event.remove([{
-        id:'nethersdelight:blackstone_furnace'
-    },
-    {
-        id:'nethersdelight:blackstone_blast_furnace'
-    }
-])
-})

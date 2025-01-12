@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Exception loading blockstate", "was not realized!", "[Render thread/INFO] [Embeddium/]:", "[Diagonal Blocks/]:", "Scanned:", "Unable to load model:", "Failed to", "No module", "unable", "will not use", "404", "has no attributes", "mixins"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "Exception loading blockstate", "was not realized!", "net.minecraft.client", "[Render thread/INFO] [Embeddium/]:", "[Diagonal Blocks/]:", "Scanned:", "Unable to load model:", "Failed to", "No module", "unable", "will not use", "404", "has no attributes", "mixin"]
+

@@ -1,0 +1,30 @@
+ServerEvents.recipes(event=>{
+    event.remove([
+        {id:'minecraft:furnace'},
+        {id:'brickfurnace:brick_furnace'},
+        {id:'quark:blackstone_furnace'},
+        {id:'quark:deepslate_furnace'},
+        {id:'call_of_yucutan:wooden_tecpatl_recipe'},
+        {id:'call_of_yucutan:wooden_spear_recipe'},
+        {mod:'immersive_weathering',id:'/unstrip/'},
+        {mod:'immersive_weathering',id:'/from_bark/'},
+        {id:'minecraft:wooden_shovel'},
+        {id:'minecraft:wooden_pickaxe'},
+        {id:'minecraft:wooden_axe'},
+        {id:'minecraft:wooden_hoe'},
+        {id:'minecraft:wooden_sword'},
+        {id:'minecraft:stone_shovel'},
+        {id:'minecraft:stone_pickaxe'},
+        {id:'minecraft:stone_axe'},
+        {id:'minecraft:stone_hoe'},
+        {id:'minecraft:stone_sword'},
+        {id:'minecraft:end_rod'},
+        {id:'minecraft:crafting_table'},
+        {id:'minecraft:sugar_from_sugar_cane'},
+        {id:'minecraft:bricks'},
+        {id:'immersive_weathering:birch_wood_from_bark'},
+        {id:'minecraft:diorite'},
+        {id:'minecraft:andesite'},
+        {id:'minecraft:granite'}
+    ])
+})

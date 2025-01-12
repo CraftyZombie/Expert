@@ -1,0 +1,7 @@
+Modified Config Options:
+Enderman Overhaul - Client: Model Override Enabled 
+Thermal - Client: Festive Vanilla Mob Models Disabled (Crashes with Creeper Overhaul)
+Lazyyyyy Mixins - Disabled Lazy Entity Renderers (Crashes with Artifacts)
+Ding: Enabled Sound On World Load
+Better Dungeons: Disable Nether Blocks in Overworld Dungeons, Enable Small Nether Dungeons
+Enchantment Descriptions: Made Description Color Gold

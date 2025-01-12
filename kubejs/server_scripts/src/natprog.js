@@ -1,10 +1,10 @@
 ServerEvents.recipes(event=>{
     event.remove([
         {
-            id:'natprog:crafting/saws/flint_saw'
+            id:'natprog:crafting/bone_knife'
         },
         {
-            id:'natprog:crafting/bone_knife'
+            output:'#natprog:saw'
         }
     ])
 })
@@ -29,6 +29,14 @@ ServerEvents.tags('entity_type',event=>{
         'alexsmobs:seagull',
         'autumnity:turkey',
         'naturalist:duck',
-        'ambientadditions:siamang_gibbon'
+        'ambientadditions:siamang_gibbon',
+        'alexsmobs:gelada_monkey',
+        'alexsmobs:bison',
+        'alexsmobs:crow',
+        'naturalist:sparrow',
+        'habitat:passerine',
+        'alexsmobs:blue_jay',
+        'snowpig:snow_pig',
+        'mowziesmobs:naga'
     ])
 })

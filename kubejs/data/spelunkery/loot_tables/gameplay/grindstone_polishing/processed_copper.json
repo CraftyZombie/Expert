@@ -1,0 +1,14 @@
+{
+    "pools": [
+      {
+        "rolls": 3,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "spelunkery:copper_nugget"
+          }
+        ]
+      }
+    ]
+  }

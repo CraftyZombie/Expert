@@ -6,7 +6,7 @@
 	fellingEnabled = true
 	#Default setting for the effect that sneaking has on chopping (can be cycled in-game)
 	#Allowed Values: NONE, INVERT_CHOPPING, INVERT_FELLING
-	sneakBehavior = "INVERT_CHOPPING"
+	sneakBehavior = "NONE"
 	#Ignore trees without connected leaves (can be toggled in-game)
 	treesMustHaveLeaves = true
 	#Enable chopping in creative mode (even when false, sneaking can still enable chopping) (can be toggled in-game)
@@ -28,9 +28,9 @@
 
 [settingsScreen]
 	#Show in-game options for enabling and disable felling (can be toggled in-game)
-	showFellingOptions = true
+	showFellingOptions = false
 	#Show chat confirmations when using hotkeys to change chop settings (can be toggled in-game)
-	showFeedbackMessages = true
+	showFeedbackMessages = false
 	#Show tooltips in the settings screen (can be toggled in-game)
-	showTooltips = true
+	showTooltips = false
 

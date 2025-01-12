@@ -1,0 +1,26 @@
+{
+  "includeVanillaSplashes": true,
+  "includeModNames": false,
+  "customSplashes": [
+    "splash.splashy.squirrels",
+    "splash.splashy.direwolf",
+    "splash.splashy.error_1",
+    "splash.splashy.potato_knishes",
+    "splash.splashy.snail_facts",
+    "splash.splashy.blm",
+    "splash.splashy.blame_jared",
+    "splash.splashy.tips",
+    "splash.splashy.birch_forest",
+    "splash.splashy.multiloader",
+    "splash.expert.guture",
+    "splash.expert.fable",
+    "splash.expert.carver",
+    "splash.expert.parsec",
+    "splash.expert.brazil",
+    "splash.expert.terrible_timing",
+    "splash.expert.making_foo",
+    "splash.expert.telepathicgrunt",
+    "splash.expert.peak_cinema"
+  ],
+  "displaySplashes": true
+}

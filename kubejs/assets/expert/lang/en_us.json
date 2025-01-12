@@ -80,7 +80,14 @@
     "enchantment.glowroot.red_light.desc":"Redstone blocks in the range of the light activate.",
     "enchantment.glowroot.yellow_light.desc":"Entities in the range of the light glow.",
 
-//Preventing Spelunkery Magnetic Compass from Giving Player Coordinates. (This functionality should be accessed through the sextant.)
-    "tooltip.spelunkery.magnetite_pos": "",
-    "tooltip.spelunkery.player_pos": ""
+//Custom Splashes
+    "splash.expert.guture":"Yeah, I may or may not be a genie who can predict the GUTURE.",
+    "splash.expert.fable":"Fable? Like the game???",
+    "splash.expert.carver":"We ARE 'da new version' fanatics!",
+    "splash.expert.parsec":"Please hold while I uninstall Parsec.",
+    "splash.expert.brazil":"Congratulations, DZ-015!",
+    "splash.expert.terrible_timing":"Quark adds parrot eggs now!",
+    "splash.expert.making_foo":"DAMN BRO I JUST LOVE AP FUEL",
+    "splash.expert.telepathicgrunt":"Time for new friends",
+    "splash.expert.peak_cinema":"PARKOUR CIVILIZATION"
 }

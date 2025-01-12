@@ -3,7 +3,7 @@
 	#Set to false to disable TreeChop without having to uninstall the mod
 	enabled = true
 	#Let TreeChop print to the log
-	printDebugInfo = false
+	printDebugInfo = true
 
 [permissions]
 
@@ -16,12 +16,12 @@
 		canBeTrue = true
 
 	[permissions.sneakBehavior]
-		canBeInvertFelling = false
 		canBeInvertChopping = false
 		canBeNone = true
+		canBeInvertFelling = false
 
 	[permissions.treeMustHaveLeaves]
-		canBeFalse = true
+		canBeFalse = false
 		canBeTrue = true
 
 	[permissions.chopInCreativeMode]
@@ -139,7 +139,7 @@
 		#The chop settings used by non-player entities, such as robots and machine blocks
 		[compatibility.general.fakePlayerChopSettings]
 			#Use with caution! May cause conflicts with some mods, e.g. https://github.com/hammertater/treechop/issues/71
-			choppingEnabled = false
+			choppingEnabled = true
 			#Felling only matters if chopping is enabled; probably best to leave this on
 			fellingEnabled = true
 			treesMustHaveLeaves = true

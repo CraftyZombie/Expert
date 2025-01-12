@@ -8,13 +8,13 @@
 		#If recipe toasts are blocked.
 		recipes = true
 		#If system toasts are blocked.
-		system = true
+		system = false
 		#If tutorial toasts are blocked.
 		tutorial = true
 		#If all vanilla toasts are blocked.
-		global_vanilla = true
+		global_vanilla = false
 		#If all non-vanilla toasts are blocked.
-		global_modded = true
+		global_modded = false
 		#If all toasts are blocked.
 		global = true
 		#Toast Classes that are blocked from being shown.
